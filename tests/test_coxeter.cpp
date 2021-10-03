@@ -1,5 +1,17 @@
 // Copyright (c) 2020 [Your Name]. All rights reserved.
 
-#include <coxeter/set.h>
+#include <iostream>
 
-int main() { }
+#include <coxeter/fcoxgroup.h>
+#include <coxeter/constants.h>
+
+int main() {
+    // Always need to run this line first.
+    constants::initConstants();
+
+    fcoxgroup::FiniteCoxGroup group("A", 5);
+
+    std::cout << group.order() << std::endl;
+
+    // Segfaults here for some reason?
+}
