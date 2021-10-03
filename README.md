@@ -1,4 +1,4 @@
-# LRCalc
+# Coxeter
 
 Littlewood-Richardson Coefficient Calculator written in C using Modern CMake structure.
 

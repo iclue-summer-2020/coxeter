@@ -5,8 +5,8 @@
   See file main.cpp for full copyright notice
 */
 
-#include "wgraph.h"
-#include "stack.h"
+#include <coxeter/wgraph.h>
+#include <coxeter/stack.h>
 
 /****************************************************************************
 

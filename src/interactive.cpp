@@ -7,18 +7,18 @@
 
 #include <ctype.h>
 
-#include "interactive.h"
+#include <coxeter/interactive.h>
 
-#include "affine.h"
-#include "automata.h"
-#include "directories.h"
-#include "error.h"
-#include "fcoxgroup.h"
-#include "general.h"
-#include "interface.h"
-#include "io.h"
-#include "type.h"
-#include "typeA.h"
+#include <coxeter/affine.h>
+#include <coxeter/automata.h>
+#include <coxeter/directories.h>
+#include <coxeter/error.h>
+#include <coxeter/fcoxgroup.h>
+#include <coxeter/general.h>
+#include <coxeter/interface.h>
+#include <coxeter/io.h>
+#include <coxeter/type.h>
+#include <coxeter/typeA.h>
 
 namespace interactive {
   using namespace affine;

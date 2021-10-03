@@ -5,12 +5,12 @@
   See file main.cpp for full copyright notice
 */
 
-#include "interface.h"
+#include <coxeter/interface.h>
 
 #include <ctype.h>
 
-#include "bits.h"
-#include "error.h"
+#include <coxeter/bits.h>
+#include <coxeter/error.h>
 
 namespace interface {
   using namespace error;

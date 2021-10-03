@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "klsupport.h"
+#include <coxeter/klsupport.h>
 
 /*
   This module contains code for the operations that can be "factored out"

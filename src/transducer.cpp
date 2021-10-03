@@ -5,10 +5,10 @@
   See file main.cpp for full copyright notice
 */
 
-#include "transducer.h"
+#include <coxeter/transducer.h>
 
-#include "bits.h"
-#include "error.h"
+#include <coxeter/bits.h>
+#include <coxeter/error.h>
 
 namespace transducer {
   using namespace error;

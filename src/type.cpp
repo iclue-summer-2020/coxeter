@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "type.h"
+#include <coxeter/type.h>
 
 namespace {
 

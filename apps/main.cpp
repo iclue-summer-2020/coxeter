@@ -153,14 +153,14 @@
   		     END OF TERMS AND CONDITIONS
 */
 
-#include "constants.h"
-#include "commands.h"
-#include "version.h"
+#include <coxeter/constants.h>
+#include <coxeter/commands.h>
+#include <coxeter/version.h>
 
 namespace {
   using namespace version;
   void printVersion();
-};
+}
 
 int main()
 
@@ -194,4 +194,4 @@ void printVersion()
   return;
 }
 
-};
+}

@@ -65,7 +65,6 @@ void s_minus(set *s1, set *s2);      /* s1 = s1 - s2 */
 void s_symdiff(set *s1, set *s2);    /* s1 = (s1 - s2) union (s2 - s1) */
 
 #include "list.h"
-list *s_elemlist(set *s);
 
 void s_print_stat(set *s, size_t range);
 

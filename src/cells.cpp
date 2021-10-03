@@ -5,9 +5,9 @@
   See file main.cpp for full copyright notice
 */
 
-#include "cells.h"
+#include <coxeter/cells.h>
 
-#include "stack.h"
+#include <coxeter/stack.h>
 
 namespace cells {
   using namespace klsupport;

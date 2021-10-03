@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "invkl.h"
+#include <coxeter/invkl.h>
 
 /*
   This module contains code for the computation of _inverse_ Kazhdan-Lusztig

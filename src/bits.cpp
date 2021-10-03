@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "bits.h"
+#include <coxeter/bits.h>
 
 #include <limits.h>
 

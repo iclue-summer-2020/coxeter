@@ -5,9 +5,9 @@
   See file main.cpp for full copyright notice
 */
 
-#include "schubert.h"
+#include <coxeter/schubert.h>
 
-#include "error.h"
+#include <coxeter/error.h>
 
 namespace schubert {
   using namespace error;

@@ -1,6 +1,7 @@
 file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-        "${LRCalc_SOURCE_DIR}/tests/*.h"
-        "${LRCalc_SOURCE_DIR}/tests/*.c")
+        "${Coxeter_SOURCE_DIR}/tests/*.h"
+        "${Coxeter_SOURCE_DIR}/tests/*.hpp"
+        "${Coxeter_SOURCE_DIR}/tests/*.cpp")
 
 # This target runs all of the tests.
 # Make sure CATCH_CONFIG_MAIN is only defined in one test file.
@@ -20,24 +21,16 @@ add_test(NAME test-coxeter COMMAND test-coxeter) # Command can be a target
 set_target_properties(test-coxeter PROPERTIES FOLDER iclue)
 
 # Cross-platform compiler lints
-if (${CMAKE_C_COMPILER_ID} STREQUAL "Clang"
-        OR ${CMAKE_C_COMPILER_ID} STREQUAL "GNU")
-    target_compile_options(test-coxeter PRIVATE
-            -Wall
-            -Wextra
-            -Wswitch
-            -Wconversion
-            -Wparentheses
-            -Wfloat-equal
-            -Wzero-as-null-pointer-constant
-            -Wpedantic
-            -pedantic
-            -pedantic-errors)
-elseif (${CMAKE_C_COMPILER_ID} STREQUAL "MSVC")
-    target_compile_options(test-coxeter PRIVATE
-            /W3)
-endif ()
-
+target_compile_options(test-coxeter PRIVATE
+        # -Wall
+        # -Wextra
+        # -Wswitch
+        # -Wconversion
+        # -Wparentheses
+        # -Wfloat-equal
+        # -Wzero-as-null-pointer-constant
+        #-Wpedantic
+)
 
 add_custom_command(
         TARGET test-coxeter

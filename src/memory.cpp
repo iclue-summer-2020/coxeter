@@ -5,10 +5,10 @@
   See file main.cpp for full copyright notice
 */
 
-#include "memory.h"
+#include <coxeter/memory.h>
 #include <limits.h>
 
-#include "error.h"
+#include <coxeter/error.h>
 
 namespace memory {
   using namespace error;

@@ -5,10 +5,10 @@
   See file main.cpp for full copyright notice
 */
 
-#include "kl.h"
+#include <coxeter/kl.h>
 
-#include "error.h"
-#include "iterator.h"
+#include <coxeter/error.h>
+#include <coxeter/iterator.h>
 
 namespace kl {
   using namespace error;

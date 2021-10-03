@@ -8,7 +8,7 @@
 #include <stdarg.h>
 #include <ctype.h>
 
-#include "io.h"
+#include <coxeter/io.h>
 
 /****************************************************************************
 

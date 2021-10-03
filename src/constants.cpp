@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "constants.h"
+#include <coxeter/constants.h>
 
 namespace constants {
   Ulong *lmask;

@@ -3,14 +3,15 @@ if (${CMAKE_VERSION} VERSION_LESS 3.11)
     cmake_policy(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
 endif ()
 
-project(LRCalc
+project(Coxeter
         VERSION 1.0
         DESCRIPTION "Calculate LR Coefficients"
-        LANGUAGES C)
+        LANGUAGES CXX)
 
 
 # Optionally set things like CMAKE_CXX_STANDARD, CMAKE_POSITION_INDEPENDENT_CODE here
 
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # In a real CMake application you wouldn't enable a debug
 # build like this, but for our purposes it's just fine.
 #

@@ -3,12 +3,12 @@
 
 # Optionally glob, but only for CMake 3.12 or later:
 file(GLOB HEADER_LIST CONFIGURE_DEPENDS
-        "${LRCalc_SOURCE_DIR}/include/coxeter/*.h")
+        "${Coxeter_SOURCE_DIR}/include/coxeter/*.h"
+        "${Coxeter_SOURCE_DIR}/include/coxeter/*.hpp")
 
 file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-        "${LRCalc_SOURCE_DIR}/src/*.h"
-        "${LRCalc_SOURCE_DIR}/src/*.c")
-list(REMOVE_ITEM SOURCE_LIST "${LRCalc_SOURCE_DIR}/src/salloc.c")
+        "${Coxeter_SOURCE_DIR}/src/*.cpp")
+# list(REMOVE_ITEM SOURCE_LIST "${Coxeter_SOURCE_DIR}/src/salloc.c")
 
 # Make an automatic library - will be static or dynamic based on user setting
 add_library(coxeter ${SOURCE_LIST} ${HEADER_LIST})
@@ -20,12 +20,7 @@ target_include_directories(coxeter PUBLIC ../include)
 # target_compile_features(coxeter PUBLIC cxx_std_11)
 
 # Cross-platform compiler lints
-if (${CMAKE_C_COMPILER_ID} STREQUAL "Clang"
-        OR ${CMAKE_C_COMPILER_ID} STREQUAL "GNU")
-    target_compile_options(coxeter PRIVATE -Wall)
-elseif (${CMAKE_CXX_COMPILER_ID} STREQUAL "MSVC")
-    target_compile_options(coxeter PRIVATE /W3)
-endif ()
+target_compile_options(coxeter PRIVATE)
 
 set_property(TARGET coxeter PROPERTY POSITION_INDEPENDENT_CODE ON)
 

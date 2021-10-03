@@ -5,11 +5,11 @@
   See file main.cpp for full copyright notice
 */
 
-#include "help.h"
+#include <coxeter/help.h>
 
-#include "commands.h"
-#include "directories.h"
-#include "io.h"
+#include <coxeter/commands.h>
+#include <coxeter/directories.h>
+#include <coxeter/io.h>
 
 namespace help {
   using namespace directories;

@@ -7,17 +7,17 @@
 
 #include <stdarg.h>
 
-#include "error.h"
+#include <coxeter/error.h>
 
-#include "coxtypes.h"
-#include "directories.h"
-#include "graph.h"
-#include "interactive.h"
-#include "interface.h"
-#include "io.h"
-#include "kl.h"
-#include "schubert.h"
-#include "version.h"
+#include <coxeter/coxtypes.h>
+#include <coxeter/directories.h>
+#include <coxeter/graph.h>
+#include <coxeter/interactive.h>
+#include <coxeter/interface.h>
+#include <coxeter/io.h>
+#include <coxeter/kl.h>
+#include <coxeter/schubert.h>
+#include <coxeter/version.h>
 
 namespace error {
   using namespace directories;

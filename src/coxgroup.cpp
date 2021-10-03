@@ -5,9 +5,9 @@
   See file main.cpp for full copyright notice
 */
 
-#include "coxgroup.h"
+#include <coxeter/coxgroup.h>
 
-#include "error.h"
+#include <coxeter/error.h>
 
 /*************************************************************************
 

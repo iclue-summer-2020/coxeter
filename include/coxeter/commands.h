@@ -41,7 +41,7 @@ namespace commands {
   namespace interface {
     CommandTree* inCommandTree();
     CommandTree* outCommandTree();
-  };
+  }
 
 /******** Type definitions *************************************************/
 

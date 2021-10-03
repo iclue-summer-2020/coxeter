@@ -5,10 +5,10 @@
   See file main.cpp for full copyright notice
 */
 
-#include "special.h"
+#include <coxeter/special.h>
 
-#include "directories.h"
-#include "interactive.h"
+#include <coxeter/directories.h>
+#include <coxeter/interactive.h>
 
 /******** local definitions **************************************************/
 

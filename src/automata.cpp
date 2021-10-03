@@ -5,9 +5,9 @@
   See file main.cpp for full copyright notice
 */
 
-#include "automata.h"
+#include <coxeter/automata.h>
 
-#include "memory.h"
+#include <coxeter/memory.h>
 
 namespace automata {
   using namespace memory;

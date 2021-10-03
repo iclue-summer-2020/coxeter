@@ -5,12 +5,12 @@
   See file main.cpp for full copyright notice
 */
 
-#include "files.h"
+#include <coxeter/files.h>
 
-#include "cells.h"
-#include "directories.h"
-#include "posets.h"
-#include "version.h"
+#include <coxeter/cells.h>
+#include <coxeter/directories.h>
+#include <coxeter/posets.h>
+#include <coxeter/version.h>
 
 namespace files {
   using namespace directories;

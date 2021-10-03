@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "minroots.h"
+#include <coxeter/minroots.h>
 
 namespace {
   using namespace minroots;

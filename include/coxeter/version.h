@@ -12,6 +12,6 @@
 namespace version {
   const char* const NAME = "Coxeter";
   const char* const VERSION = "3.1";
-};
+}
 
 #endif

@@ -17,11 +17,11 @@
   hundred, say, if then), so it shouldn't cause any real problems.
 */
 
-#include "affine.h"
+#include <coxeter/affine.h>
 
-#include "error.h"
-#include "graph.h"
-#include "minroots.h"
+#include <coxeter/error.h>
+#include <coxeter/graph.h>
+#include <coxeter/minroots.h>
 
 /* local variables */
 

@@ -5,8 +5,8 @@
   See file main.cpp for full copyright notice
 */
 
-#include "uneqkl.h"
-#include "interactive.h"
+#include <coxeter/uneqkl.h>
+#include <coxeter/interactive.h>
 
 namespace uneqkl {
   using namespace interactive;

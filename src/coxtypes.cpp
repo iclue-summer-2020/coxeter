@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "coxtypes.h"
+#include <coxeter/coxtypes.h>
 
 /****************************************************************************
 

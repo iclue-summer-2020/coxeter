@@ -5,15 +5,15 @@
   See file main.cpp for full copyright notice
 */
 
-#include "commands.h"
+#include <coxeter/commands.h>
 
-#include "directories.h"
-#include "error.h"
-#include "fcoxgroup.h"
-#include "help.h"
-#include "interactive.h"
-#include "special.h"
-#include "typeA.h"
+#include <coxeter/directories.h>
+#include <coxeter/error.h>
+#include <coxeter/fcoxgroup.h>
+#include <coxeter/help.h>
+#include <coxeter/interactive.h>
+#include <coxeter/special.h>
+#include <coxeter/typeA.h>
 
 namespace commands {
   using namespace directories;

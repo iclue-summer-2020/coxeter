@@ -5,9 +5,9 @@
   See file main.cpp for full copyright notice
 */
 
-#include "fcoxgroup.h"
+#include <coxeter/fcoxgroup.h>
 
-#include "cells.h"
+#include <coxeter/cells.h>
 
 #define undefined (ParNbr)(PARNBR_MAX + 1)
 

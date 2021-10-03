@@ -5,10 +5,10 @@
   See file main.cpp for full copyright notice
 */
 
-#include "graph.h"
+#include <coxeter/graph.h>
 
-#include "directories.h"
-#include "interactive.h"
+#include <coxeter/directories.h>
+#include <coxeter/interactive.h>
 
 namespace {
   using namespace graph;

@@ -5,7 +5,7 @@
   See file main.cpp for full copyright notice
 */
 
-#include "typeA.h"
+#include <coxeter/typeA.h>
 
 /*****************************************************************************
 
