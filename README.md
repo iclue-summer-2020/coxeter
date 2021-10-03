@@ -14,5 +14,7 @@ More info can be found here: [http://math.univ-lyon1.fr/~ducloux/coxeter/coxeter
 
 **Author**: [Fokko du Cloux](https://en.wikipedia.org/wiki/Fokko_du_Cloux)
 
+This is a patched version done by Mike Hansen 2009-2013 and some fixes by
+Nicolas M. Thiéry and Jean-Pierre Flori.
 
 Modified by David Brewster (davidb2 at illinois edu)
