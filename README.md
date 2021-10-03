@@ -1,6 +1,6 @@
 # Coxeter
 
- Code related to Coxeter group computations written in C using Modern CMake
+ Code related to Coxeter group computations written in C/C++ using Modern CMake
  structure.
 
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
