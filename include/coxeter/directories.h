@@ -25,9 +25,9 @@
 */
 
 namespace directories {
-  const char* const COXMATRIX_DIR = "/usr/local/coxeter/coxeter_matrices";
-  const char* const HEADER_DIR = "/usr/local/coxeter/headers";
-  const char* const MESSAGE_DIR = "/usr/local/coxeter/messages";
+  const char* const COXMATRIX_DIR = "data/coxeter_matrices";
+  const char* const HEADER_DIR = "data/headers";
+  const char* const MESSAGE_DIR = "data/messages";
 };
 
 #endif
